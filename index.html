@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDB SKU</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Image -->
+    <div id="background">
+        
+        <p id="instruction-text">1. Click on the ports to customize your configuration.<br>2. Press 'Done' to generate the SKUs for your order.</p>
+
+        <!-- Image Row -->
+        <div id="image-row">
+            <!-- Image Block 1 -->
+            <div class="image-block" id="image-1">
+                <img src="img/01.png" alt="IDB-HDMI-C">
+            </div>
+            
+            <!-- Image Block 2 -->
+            <div class="image-block" id="image-2">
+                <img src="img/02.png" alt="IDB-RJ45-C">
+            </div>
+
+            <!-- Image Block 3 -->
+            <div class="image-block" id="image-3">
+                <img src="img/03.png" alt="IDB-USBC-C">
+            </div>
+            
+            <!-- Image Block 4 -->
+            <div class="image-block" id="image-4">
+                <img src="img/04.png" alt="IDB-USBA-C">
+            </div>
+        </div>
+
+        <!-- Button Block -->
+        <div id="button-block">
+            <button id="done-button">Done</button>
+        </div>
+
+        <!-- Popup Block -->
+        <div id="popup" style="display: none;">
+            <div id="popup-content">
+                <p>This is the popup text you want to display.</p>
+                <button id="close-popup">Close</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
